@@ -1,3 +1,5 @@
+https://github.com/dhaval2989/Analog-Clock/ tab here to download project
+
 # AngularClock
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
