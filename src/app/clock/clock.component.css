@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+.analog-clock {
+  position: relative;
+  margin: 34px auto 0;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 5px solid rgba(254,177,35,1);
+  box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+
+.hand {
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 100px;
+  /* transform: translate3d(-50%, 0, 0); */
+  transform-origin: 100% 100%;
+}
+
+.hour {
+  background-color: #333333;
+  width: 8px;
+  height: 100px;
+}
+
+.minute {
+  background-color: #333333;
+  width: 5px;
+}
+
+.second {
+  background-color: red;
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 17px;
+  height: 17px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+.digital-clock {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  font-size: 2em;
+  font-family: "Source Code Pro", monospace;
+  background: #333;
+  color: red;
+  padding: 10px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
